@@ -1,4 +1,4 @@
-package code;
+package templates;
 
 import utils.TreeNode;
 
