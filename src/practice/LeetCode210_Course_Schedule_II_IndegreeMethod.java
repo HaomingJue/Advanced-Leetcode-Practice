@@ -2,7 +2,7 @@ package practice;
 
 import java.util.*;
 
-public class LeetCode210_Course_Schedule_II {
+public class LeetCode210_Course_Schedule_II_IndegreeMethod {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int[] order = new int[numCourses];
         Map<Integer, List<Integer>> adjList = new HashMap<>();
