@@ -4,6 +4,9 @@ import utils.TreeNode;
 
 public class LeetCode99_Recover_Binary_Search_Tree_Morris_Inorder_Traversal {
     public void recoverTree(TreeNode root) {
+        // This method is to make leaf nodes' right pointers point to their nearest roots.
+        // Despite modifying the original tree and creating cycles in the tree,
+        // it avoids using extra space.
         TreeNode x = null, y = null, pred = null, predecessor = null;
         while (root != null) {
             if (root.left != null) {
