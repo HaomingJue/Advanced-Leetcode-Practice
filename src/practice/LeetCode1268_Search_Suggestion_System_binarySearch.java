@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class LeetCode1238_Search_Suggestion_System_binarySearch {
+public class LeetCode1268_Search_Suggestion_System_binarySearch {
     public List<List<String>> suggestedProducts(String[] products, String searchWord) {
         Arrays.sort(products);
         List<List<String>> ret = new ArrayList<>();
