@@ -5,7 +5,7 @@ import utils.ListNode;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
-public class LeetCode23_Merge_k_Sorted_Lists {
+public class LeetCode23_Merge_k_Sorted_Lists_PQ {
     public ListNode mergeKLists(ListNode[] lists) {
         ListNode ansHead = new ListNode();
         PriorityQueue<ListNode> pq = new PriorityQueue(new NodeComparator());
