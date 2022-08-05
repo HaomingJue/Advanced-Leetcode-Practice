@@ -1,5 +1,8 @@
 package practice;
 
+import java.util.Arrays;
+import java.util.HashMap;
+
 public class LeetCode377_Combination_Sum_IV {
     private HashMap<Integer, Integer> map = new HashMap<>();
 
