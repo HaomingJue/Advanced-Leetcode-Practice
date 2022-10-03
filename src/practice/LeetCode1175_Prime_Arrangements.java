@@ -26,4 +26,4 @@ public class LeetCode1175_Prime_Arrangements {
         return true;
     }
 }
-}
+
